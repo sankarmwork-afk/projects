@@ -26,6 +26,9 @@ A program that calculates the missing side of a triangle using the Pythagorean t
 
 A small experimental program related to quantum concepts.
 
+### 5. Python Calculator
+
+A simple calculator program written in Python.
 
 ## Technologies Used
 
@@ -38,3 +41,5 @@ A small experimental program related to quantum concepts.
 
 Sankar
 Beginner programmer learning computer science and problem solving.
+
+
