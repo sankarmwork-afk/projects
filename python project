@@ -1,0 +1,36 @@
+def add( num1,num2):
+    return num1+num2
+def sub( num1,num2):
+    return num1-num2
+def mutiply( num1,num2):
+    return num1*num2 
+def divde( num1,num2):
+    return num1/num2 
+def avg( num1,num2):
+    return (num1+num2)/2
+print('please select a opeartion : \n '\
+       '1.Addtion \n' \
+        '2.subtraction \n' \
+         '3.divison \n'\
+           '4.multiplitcation \n' \
+             '5.average \n')
+select= int( input('select a opeartion from 1,2,3,4,5:'))
+number1 = int(input('enter first numer:'))
+number2 = int(input('enter seconed number:'))
+if select==1:
+    print(number1, '+' ,number2, '=' , \
+          add(number1,number2))
+elif select==2:
+    print(number1, '-' ,number2, '=' , \
+          sub(number1,number2))
+elif select==3:
+    print(number1, '/' ,number2, '=' , \
+          divde(number1,number2))
+elif select==4:
+    print(number1, '*' ,number2, '=' , \
+          mutiply(number1,number2))
+elif select==2:
+    print('(,number1, '-' ,number2,)', '/','2', '=' , \
+          avg(number1,number2))
+else:
+    print('invaild operator! pls select again')
